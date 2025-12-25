@@ -114,7 +114,7 @@ ClinVar (VCF) + Reference Genome (hg38 FASTA)
       연구 총괄, 문제 정의, 전체 모델 아키텍처 방향 설계
     </td>
     <td align="center" width="220">
-      의생명 서열 데이터 기반<br>학습 파이프라인 구현,<br>변이·서열 특성 실험/성능 분석
+      의생명 서열 데이터 기반<br>학습 파이프라인 구현,<br>변이·서열 특성 성능 분석
     </td>
     <td align="center" width="220">
       학습/추론 최적화 및 거리·스코어 보정, 지표 정합/튜닝으로 성능 향상
