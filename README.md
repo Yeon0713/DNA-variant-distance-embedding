@@ -86,6 +86,7 @@ ClinVar (VCF) + Reference Genome (hg38 FASTA)
 <a id="team"></a>
 ## 1-1. 👥 팀원 소개
 
+|  |  |  |  |  |
 |:--:|:--:|:--:|:--:|:--:|
 |  |  | <img src="https://avatars.githubusercontent.com/u/150754838?v=4" width="200px" alt="장영웅"> |  |  |
 | 안준식<br>Lead Researcher | 윤여헌<br>ML Engineer | 장영웅<br>Model Engineer | 이정원<br>Data Engineer | 조민성<br>Data Researcher |
