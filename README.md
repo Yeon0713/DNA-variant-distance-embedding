@@ -87,7 +87,6 @@ ClinVar (VCF) + Reference Genome (hg38 FASTA)
 ## 1-1. 👥 팀원 소개
 
 |  |  |  |  |  |
-|:--:|:--:|:--:|:--:|:--:|
 |  |  | <img src="https://avatars.githubusercontent.com/u/150754838?v=4" width="200px" alt="장영웅"> |  |  |
 | 안준식<br>Lead Researcher | 윤여헌<br>ML Engineer | 장영웅<br>Model Engineer | 이정원<br>Data Engineer | 조민성<br>Data Researcher |
 | 연구 총괄, 문제 정의,<br>전체 모델 아키텍처 방향 설계 | 학습 파이프라인 구현,<br>파인튜닝 및 실험 실행 | 보정 파이프라인 수정,<br>실험 관리, 모델 성능 비교 | 데이터 전처리,<br>데이터셋 생성 파이프라인 구축 | ClinVar 기반 변이 분석,<br>병원성 특성 연구 |
