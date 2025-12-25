@@ -86,11 +86,48 @@ ClinVar (VCF) + Reference Genome (hg38 FASTA)
 <a id="team"></a>
 ## 1-1. 👥 팀원 소개
 
-|  |  |  |  |  |
-|:--:|:--:|:--:|:--:|:--:|
-| <img src="https://placehold.co/200x200?text=%EC%9C%A4%EC%97%AC%ED%97%8" width="200px" alt="안준식"> | <img src="https://placehold.co/200x200?text=%EC%9C%A4%EC%97%AC%ED%97%8" width="200px" alt="윤여헌"> | <img src="https://avatars.githubusercontent.com/u/150754838?v=4" width="200px" alt="장영웅"> | <img src="https://placehold.co/200x200?text=%EC%9C%A4%EC%97%AC%ED%97%8" width="200px" alt="이정원"> | <img src="https://placehold.co/200x200?text=%EC%9C%A4%EC%97%AC%ED%97%8" width="200px" alt="조민성"> |
-| 안준식<br>Lead Researcher | 윤여헌<br>Bio-ML Engineer | 장영웅<br>Read Model Engineer | 이정원<br>Data Engineer | 조민성<br>Data Researcher |
-| 연구 총괄, 문제 정의,<br>전체 모델 아키텍처 방향 설계 | 의생명 서열 데이터 기반 학습 파이프라인 구현 및 파인튜닝, 변이/서열 특성을 고려한 모델 실험 및 성능 분석 | 학습/추론 파이프라인 최적화 및 모델 출력(거리·스코어) 보정,지표 정합성 개선과 실험 기반 튜닝으로 성능 향상·안정화에 기여 | 데이터 전처리,<br>데이터셋 생성 파이프라인 구축 | ClinVar 기반 변이 분석,<br>병원성 특성 연구 |
+<table>
+  <tr>
+    <td align="center" width="220">
+      <img src="https://placehold.co/200x200?text=%EC%95%88%EC%A4%80%EC%8B%9D" width="200" height="200" alt="안준식"><br>
+      안준식<br><sub>Lead Researcher</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://placehold.co/200x200?text=%EC%9C%A4%EC%97%AC%ED%97%8C" width="200" height="200" alt="윤여헌"><br>
+      윤여헌<br><sub>Bio-ML Engineer</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://avatars.githubusercontent.com/u/150754838?v=4" width="200" height="200" alt="장영웅"><br>
+      장영웅<br><sub>Read Model Engineer</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://placehold.co/200x200?text=%EC%9D%B4%EC%A0%95%EC%9B%90" width="200" height="200" alt="이정원"><br>
+      이정원<br><sub>Data Engineer</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://placehold.co/200x200?text=%EC%A1%B0%EB%AF%BC%EC%84%B1" width="200" height="200" alt="조민성"><br>
+      조민성<br><sub>Data Researcher</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      연구 총괄, 문제 정의,<br>전체 모델 아키텍처 방향 설계
+    </td>
+    <td align="center" width="220">
+      의생명 서열 데이터 기반<br>학습 파이프라인 구현/파인튜닝,<br>변이·서열 특성 실험/성능 분석
+    </td>
+    <td align="center" width="220">
+      학습/추론 최적화 및<br>거리·스코어 보정,<br>지표 정합/튜닝으로 성능 향상
+    </td>
+    <td align="center" width="220">
+      데이터 전처리,<br>데이터셋 생성 파이프라인 구축
+    </td>
+    <td align="center" width="220">
+      ClinVar 기반 변이 분석,<br>병원성 특성 연구
+    </td>
+  </tr>
+</table>
+
 
 ---
 
