@@ -203,7 +203,7 @@ Mutation Focus Loss용 local distance는 $\ell$을 정규화 후 동일하게 �
 모든 $\hat{d}$는 (Reference, Variant) 최종 임베딩의 cosine distance입니다.
 
 - 최종 거리: $\hat{d}=1-\cos(z_{ref},z_{var})$
-local 거리: $`\hat{d}_{\mathrm{local}} = 1 - \cos\big(\mathrm{norm}(\ell_{\mathrm{ref}}),\ \mathrm{norm}(\ell_{\mathrm{var}})\big)`$
+- local 거리: $`\hat{d}_{\mathrm{local}} = 1 - \cos\big(\mathrm{norm}(\ell_{\mathrm{ref}}),\ \mathrm{norm}(\ell_{\mathrm{var}})\big)`$
 - 타깃 거리: $d^{\ast}=2s$  (코드에서 `target_dist = score * 2.0`)
 
 배치에서 Pathogenic 집합 $P=\{i\mid y_i=1\}$, Benign 집합 $B=\{i\mid y_i=0\}$로 두면,
