@@ -89,9 +89,8 @@ ClinVar (VCF) + Reference Genome (hg38 FASTA)
 |  |  |  |  |  |
 |:--:|:--:|:--:|:--:|:--:|
 |  |  | <img src="https://avatars.githubusercontent.com/u/150754838?v=4" width="200px" alt="장영웅"> |  |  |
-| 안준식<br>Lead Researcher | 윤여헌<br>Bio-ML Engineer | 장영웅<br>Read Model Engineer | 이정원<br>Data Engineer | 조민성<br>Data Researcher |
-| 연구 총괄, 문제 정의,<br>전체 모델 아키텍처 방향 설계 | 의생명 서열 데이터 기반
-학습 파이프라인 구현 및 파인튜닝,<br>변이/서열 특성을 고려한 모델 실험 및 성능 분석 | 학습/추론 파이프라인 최적화 및 보정 작업 수행,<br>실험 기반 튜닝으로 성능 향상과 안정성 개선에 기여 | 데이터 전처리,<br>데이터셋 생성 파이프라인 구축 | ClinVar 기반 변이 분석,<br>병원성 특성 연구 |
+| 안준식<br>Lead Researcher | 윤여헌<br>Bio-ML Engineer | 장영웅<br>Model Engineer | 이정원<br>Data Engineer | 조민성<br>Data Researcher |
+| 연구 총괄, 문제 정의,<br>전체 모델 아키텍처 방향 설계 | 의생명 서열 데이터 기반 학습 파이프라인 구현 및 파인튜닝,<br>변이/서열 특성을 고려한 모델 실험 및 성능 분석 | 보정 파이프라인 수정,<br>실험 관리, 모델 성능 비교 | 데이터 전처리,<br>데이터셋 생성 파이프라인 구축 | ClinVar 기반 변이 분석,<br>병원성 특성 연구 |
 
 ---
 
@@ -204,7 +203,7 @@ Mutation Focus Loss용 local distance는 $\ell$을 정규화 후 동일하게 �
 모든 $\hat{d}$는 (Reference, Variant) 최종 임베딩의 cosine distance입니다.
 
 - 최종 거리: $\hat{d}=1-\cos(z_{ref},z_{var})$
-- local 거리: $`\hat{d}_{\mathrm{local}} = 1 - \cos\big(\mathrm{norm}(\ell_{\mathrm{ref}}),\ \mathrm{norm}(\ell_{\mathrm{var}})\big)`$
+local 거리: $`\hat{d}_{\mathrm{local}} = 1 - \cos\big(\mathrm{norm}(\ell_{\mathrm{ref}}),\ \mathrm{norm}(\ell_{\mathrm{var}})\big)`$
 - 타깃 거리: $d^{\ast}=2s$  (코드에서 `target_dist = score * 2.0`)
 
 배치에서 Pathogenic 집합 $P=\{i\mid y_i=1\}$, Benign 집합 $B=\{i\mid y_i=0\}$로 두면,
